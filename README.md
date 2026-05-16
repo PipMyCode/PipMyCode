@@ -15,6 +15,7 @@ I am a Computer Science graduate (B.Tech) focused on building highly scalable ba
 **🔗 Core Backend & Ecosystem** ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) 
 ![Spring Boot](https://img.shields.io/badge/spring_boot-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white) 
 ![Spring Security](https://img.shields.io/badge/spring_security-%236DB33F.svg?style=for-the-badge&logo=springsecurity&logoColor=white) 
+![Spring AI](https://img.shields.io/badge/spring_ai-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
 
 **🔗 DevOps & Cloud Infrastructure** ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black) 
 ![Ansible](https://img.shields.io/badge/ansible-%231A1918.svg?style=for-the-badge&logo=ansible&logoColor=white) 
@@ -33,9 +34,9 @@ I am a Computer Science graduate (B.Tech) focused on building highly scalable ba
 
 ### 📈 GitHub Stats
 
-![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=PipMyCode&show_icons=true&theme=radical)
+![PipMyCode's GitHub Stats](https://github-readme-stats-fast.vercel.app/api?username=PipMyCode&show_icons=true&theme=radical)
 
-*(Note: Replace `YOUR_GITHUB_USERNAME` in the link above with your actual GitHub handle to activate the stats card!)*
+
 
 ---
 
