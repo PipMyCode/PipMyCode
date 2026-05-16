@@ -39,7 +39,7 @@
 
 ---
 
-### ✍️ Random Dev Quote
+
 
 > *"Talk is cheap. Show me the code."* > *- Linus Torvalds*
 
