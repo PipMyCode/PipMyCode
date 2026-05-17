@@ -1,4 +1,4 @@
-# Hi, I'm Marcus 👋
+# Hi, I'm Marcus 👋🏾
 
 **Backend & DevOps Engineer in progress** focused on building Java backend systems and deploying them with modern cloud/devops practices.
 
