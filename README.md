@@ -16,9 +16,12 @@ I engineer enterprise-grade backend APIs and manage the cloud infrastructure the
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white) 
 ![RabbitMQ](https://img.shields.io/badge/Rabbitmq-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white)
+![Apache Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)
 
 ### DevOps & Cloud (IaC)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![ArgoCD](https://img.shields.io/badge/ArgoCD-EF7B4D?style=for-the-badge&logo=argo&logoColor=white)
 ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
 ![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=for-the-badge&logo=ansible&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
@@ -34,14 +37,20 @@ I engineer enterprise-grade backend APIs and manage the cloud infrastructure the
 
 ## Featured Projects
 
-###  [Modernized E-Commerce Backend Architecture](https://github.com/PipMyCode/sbecomm-modernized)
+### 🏦 [FinLedger Platform](https://github.com/PipMyCode/finledger-platform)
+*A cloud-native, event-driven banking engine engineered from the ground up for zero-trust environments, ultra-low latency, and massive horizontal scale.*
+*   **Architecture:** CQRS (Command Query Responsibility Segregation) with the Transactional Outbox Pattern to enforce strict double-entry bookkeeping constraints without distributed 2PC.
+*   **Tech Stack:** Java 26 (Project Loom), Spring Boot 4.1.0, Apache Kafka, PostgreSQL, Redis.
+*   **DevOps & CI/CD:** 100% automated GitOps pipeline using GitHub Actions to parallel-build hardened containers, pushed securely to GHCR, and deployed automatically via Argo CD onto a Kubernetes cluster.
+
+### 🛒 [Modernized E-Commerce Backend Architecture](https://github.com/PipMyCode/sbecomm-modernized)
 *An enterprise-grade, zero-trust e-commerce backend built with Java 26 and Spring Boot.*
 *   **Architecture:** Scalable Modular Monolith using Domain-Driven Design (DDD) and Hexagonal Architecture.
 *   **Security:** Stateless security model leveraging Keycloak for custom OAuth2 JWT Role-Based Access Control (RBAC).
 *   **DevSecOps:** Hardened CI/CD pipeline via GitHub Actions deploying immutable, non-root containers with read-only filesystems.
 *   **Observability:** Fully instrumented with Micrometer, aggressively scraping metrics via Prometheus into dynamic Grafana dashboards (monitoring p95 latency & JVM memory).
 
-###  Cloud-Native Hostel Management System
+### 🏨 Cloud-Native Hostel Management System
 *A highly available 3-tier environment on AWS.*
 *   Architected AWS infrastructure (EC2, RDS) via **Terraform**, reducing provisioning time by 90%.
 *   Containerized the application runtime using **Docker** and automated declarative security patching routines using **Ansible**.
